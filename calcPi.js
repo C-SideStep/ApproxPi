@@ -21,7 +21,6 @@ function draw() {
   if(frameCount >= pV){
     pV += 1000;
     pH = (iC/(nIC + iC)) * 4;
-    a = 1 - pH/PI; 
-    print(pH, a)
+    alert(pH);
   }
 }
